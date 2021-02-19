@@ -9,7 +9,7 @@ public class github {
 
     @Test
     void shouldFindSelenideGitHub(){
-        Configuration.timeout=2000;
+        Configuration.timeout=3000;
 
         Selenide.open("https://github.com/");
         Selenide.sleep(5000);
