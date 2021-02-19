@@ -12,7 +12,7 @@ public class github {
         Configuration.timeout=2000;
 
         Selenide.open("https://github.com/");
-        Selenide.sleep(3000);
+        Selenide.sleep(4000);
 
         Selenide.$("[name=q]").setValue("selenide").pressEnter();
         Selenide.$$("ul.repo-list li").first().$("a").click();
